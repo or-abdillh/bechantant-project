@@ -12,7 +12,7 @@
 </style>
 
 <template>
-  <main class="flex flex-col md:flex-row justify-between gap-5 md:gap-0 py-4">
+  <main id="home" class="flex flex-col md:flex-row justify-between gap-5 md:gap-0 py-4">
     <!-- Tagline -->
     <section class="w-full md:w-6/12">
       <h1 class="text-gray-50 text-3xl font-antic-slab font-medium mb-2">A Greatest NFT Become From Indonesia, This Is Bekantan NFT</h1>

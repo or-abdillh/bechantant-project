@@ -6,6 +6,8 @@
     <home-landing></home-landing>
     <home-about></home-about>
   </main>
+  <!-- back to top -->
+  <back-to-top-button></back-to-top-button>
 </template>
 
 <script setup>
@@ -13,5 +15,6 @@
 import HomeLanding from '@component/HomeLanding.vue'
 import HomeAbout from '@component/HomeAbout.vue'
 import Navbar from '@component/Navbar.vue'
+import BackToTopButton from '@component/BackToTopButton.vue'
 
 </script>
