@@ -1,5 +1,15 @@
 <template>
-  <main>
-    <h1 class="text-center">Bechantant Project</h1>
+  <!-- Navigation Bar -->
+  <navbar></navbar>
+  <!-- Main Container -->
+  <main class="md:w-10/12 lg:w-9/12 xl:w-8/12 md:mx-auto min-h-screen pt-24 md:pt-32 px-10">
+    <home-landing></home-landing>
   </main>
 </template>
+
+<script setup>
+
+import HomeLanding from '@component/HomeLanding.vue'
+import Navbar from '@component/Navbar.vue'
+
+</script>

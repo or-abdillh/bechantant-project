@@ -1,7 +1,7 @@
 {
-  "name": "vue-starter",
-  "private": true,
-  "version": "0.0.0",
+  "name": "bekantan-hamox",
+  "private": false,
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
