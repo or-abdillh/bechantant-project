@@ -46,6 +46,12 @@
       <card-item class="w-9/12 mx-auto md:w-full"></card-item>
     </section>
   </main>
+  <!-- Sponsors -->
+  <section class="mt-6 py-6 w-full flex justify-between flex-wrap md:flex-nowrap gap-5">
+    <template v-for="(sponsor, x) in sponsors" :key="x">
+      <div class="grid place-items-center"><img :src="sponsor" class="w-8/12 md:w-10/12 saturate-50" :alt="sponsor"></div>
+    </template>
+  </section>
 </template>
 
 <script setup>
@@ -74,5 +80,7 @@ const stats = [
     subfix: 'k'
   }
 ]
+
+const sponsors = ['/sponsors/metaverse.png', '/sponsors/metamask.png', '/sponsors/opensea.png', '/sponsors/solidity.png']
 
 </script>
