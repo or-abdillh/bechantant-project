@@ -12,7 +12,7 @@
 </style>
 
 <template>
-  <main class="flex flex-col md:flex-row">
+  <main class="flex flex-col md:flex-row justify-between gap-5 md:gap-0 py-4">
     <!-- Tagline -->
     <section class="w-full md:w-6/12">
       <h1 class="text-gray-50 text-3xl font-antic-slab font-medium mb-2">A Greatest NFT Become From Indonesia, This Is Bekantan NFT</h1>
@@ -26,7 +26,7 @@
         <button class="btn border border-indigo-500 text-indigo-500">Explore</button>
       </section>
       <!-- Stats -->
-      <section class="flex justify-between gap-3 bg-slate-800 bg-opacity-50 backdrop-blur-md p-2 rounded-lg">
+      <section class="flex justify-between gap-3 bg-gray-800 bg-opacity-50 backdrop-blur-sm p-2 rounded-lg">
         <template v-for="(stat, x) in stats" :key="x">
           <div class="flex flex-col items-center w-full text-gray-400 w-3/12">
             <strong class="text-indigo-400 text-xl">{{ stat.value }}<small>{{ stat.subfix }}</small></strong>
@@ -36,17 +36,21 @@
       </section>
     </section>
     <!-- Ilustration -->
-    <section class="w-full">
+    <section class="w-full md:w-4/12 mt-8 md:mt-0">
       <!-- blur effects -->
-      <section class="relative">
+      <section class="relative md:w-6/12">
         <div class="p-20 bg-indigo-500 blur-circle -top-full left-5"></div>
         <div class="p-16 bg-pink-500 blur-circle left-3 md:left-0 md:-right-full"></div>
       </section>
+      <!-- Featured NFT -->
+      <card-item class="w-9/12 mx-auto md:w-full"></card-item>
     </section>
   </main>
 </template>
 
 <script setup>
+
+import CardItem from '@component/CardItem.vue'
 
 const stats = [
   {

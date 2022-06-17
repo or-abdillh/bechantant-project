@@ -61,7 +61,7 @@ a {
 
 <style scoped>
 .navbar {
-  @apply z-20 md:flex md:items-center md:justify-between md:px-6 md:py-8 lg:px-10 w-full bg-gray-900 fixed top-0 left-0 right-0 px-5 lg:py-8 py-3;
+  @apply z-20 md:flex md:items-center md:justify-between md:px-6 md:py-5 lg:px-10 w-full bg-gray-900 fixed top-0 left-0 right-0 px-5 lg:py-8 py-3;
 }
 
 .navbar-brand {
