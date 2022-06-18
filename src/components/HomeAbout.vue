@@ -7,7 +7,7 @@
       <div class="w-full md:w-4/12 mb-4 md:mb-0 relative">
         <!-- Blur effect -->
         <span class="block p-16 rounded-full absolute top-5 -left-3 bg-indigo-600 blur-xl z-[-9]"></span>
-        <img src="/nft-asset-3.jpg" alt="Bekantan Hamox" class="border border-gray-500 rounded-lg w-full" />
+        <img src="/nft-asset-3.jpg" alt="Bekantan Hamox" class="border border-gray-500 rounded-full w-full" />
       </div>
       <!-- Contents -->
       <div class="md:w-7/12 text-gray-200">
@@ -18,11 +18,14 @@
         <button class="px-4 py-2 text-sm rounded-lg bg-indigo-700 text-gray-100 mt-4"><i class="fa-solid fa-users mr-2"></i> Join Our Community</button>
       </div>
     </section>
+    <!-- About Our Verse -->
+    <about-our-verse></about-our-verse>
   </main>
 </template>
 
 <script setup>
 
 import SectionTitle from '@component/SectionTitle.vue'
+import AboutOurVerse from '@component/AboutOurVerse.vue'
 
 </script>
