@@ -1,8 +1,15 @@
 <template>
   <main class="mt-12">
     <sub-section-title align="start" title="Wasaka Town, 2055, Indonesia" subtitle="Welcome to our verse, your new journey start here"></sub-section-title> 
-    <!-- Ilustration -->
-    <img class="w-full rounded-lg my-6 mx-auto border border-gray-400" src="/verse/town.png" alt="Floating Town">
+    <!-- Caraousels -->
+    <Splide class="mb-6" :options="{ rewind: true, autoplay: true }" aria-label="My Favorite Images">
+      <SplideSlide>
+        <img class="rounded-lg" src="/verse/town.png" alt="Sample 1">
+      </SplideSlide>
+      <SplideSlide>
+        <img class="rounded-lg" src="/verse/town.png" alt="Sample 2">
+      </SplideSlide>
+    </Splide>
     <!-- Content -->
     <section class="flex flex-wrap justify-between gap-5">
       <template v-for="item in 4" :key="item">
@@ -14,6 +21,8 @@
 
 <script setup>
 
+import { Splide, SplideSlide } from '@splidejs/vue-splide'
 import SubSectionTitle from '@component/SubSectionTitle.vue'
+import '@splidejs/vue-splide/css'
 
 </script>
