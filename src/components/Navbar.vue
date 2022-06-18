@@ -46,7 +46,7 @@ a {
         </li>
       </ul>
       <!-- Social Media Desktop -->
-      <section class="w-2/12 hidden md:block text-slate-600 rounded-lg">
+      <section class="w-3/12 hidden md:block text-slate-600 rounded-lg">
         <div class="flex justify-between">
           <template v-for="item in socials" :key="item.name">
             <a class="block flex text-gray-200" :href="item.url">
@@ -69,7 +69,7 @@ a {
 }
 
 .navbar-menu {
-  @apply w-5/12 md:w-8/12 duration-300 fixed md:relative flex justify-between md:items-center top-0 bottom-0 bg-slate-700 md:bg-opacity-0 px-5 lg:px-0 pt-12 md:pt-0;
+  @apply w-5/12 md:w-8/12 duration-300 fixed md:relative flex justify-between md:items-center top-0 bottom-0 bg-gray-800 bg-opacity-75 backdrop-blur-md md:bg-opacity-0 px-5 lg:px-0 pt-12 md:pt-0;
 }
 
 .navbar-list {
@@ -111,6 +111,10 @@ const menus = [
 ];
 
 const socials = [
+  {
+    name: 'telegram',
+    url: 'https://telegram.com'
+  },
   {
     name: 'twitter',
     url: 'https://twitter.com'

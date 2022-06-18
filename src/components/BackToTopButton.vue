@@ -13,7 +13,7 @@ import { ref } from 'vue'
 
 const isVisible = ref(false)
 
-const toTopPage = () => { document.getElementById('home').scrollIntoView({ behavior: 'smooth' }) }
+const toTopPage = () => { document.getElementById('app').scrollIntoView({ behavior: 'smooth' }) }
 
 window.addEventListener('scroll', () => {
   if ( window.scrollY > 200 ) isVisible.value = true
