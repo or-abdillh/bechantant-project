@@ -1,8 +1,8 @@
 <template>
   <main class="w-full flex mb-6" :class="align === 'start' ? 'flex-row' : 'flex-row-reverse text-right'">
     <section class="w-8/12">
-      <h1 class="font-antic-slab text-xl fomt-semibold text-indigo-300">{{ props.title }}</h1>
-      <small class="text-xs text-gray-200">{{ props.subtitle }}</small>
+      <h1 class="font-antic-slab text-xl font-semibold text-indigo-400">{{ props.title }}</h1>
+      <small class="text-sm text-gray-200">{{ props.subtitle }}</small>
     </section>
   </main>
 </template>
