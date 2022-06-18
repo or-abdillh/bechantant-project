@@ -20,6 +20,8 @@
     </section>
     <!-- About Our Verse -->
     <about-our-verse></about-our-verse>
+    <!-- About Our Heroes -->
+    <about-our-heroes></about-our-heroes>
   </main>
 </template>
 
@@ -27,5 +29,6 @@
 
 import SectionTitle from '@component/SectionTitle.vue'
 import AboutOurVerse from '@component/AboutOurVerse.vue'
+import AboutOurHeroes from '@component/AboutOurHeroes.vue'
 
 </script>

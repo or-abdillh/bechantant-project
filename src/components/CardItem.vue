@@ -4,7 +4,7 @@
     <section class="relative">
       <img :src="props.img" :alt="props.title">
       <!-- Overlay Banner -->
-      <div class="flex justify-between px-3 py-2 bg-gray-600 bg-opacity-50 backdrop-blur-sm absolute bottom-3 left-3 right-3 text-gray-100 text-xs">
+      <div v-if="useOverLayer" class="flex justify-between px-3 py-2 bg-gray-600 bg-opacity-50 backdrop-blur-sm absolute bottom-3 left-3 right-3 text-gray-100 text-xs">
         <!-- Price -->
         <div>
           <small>Price item</small>
@@ -23,10 +23,12 @@
         <strong>{{ props.artist }}</strong>
         <p>{{ props.title }}</p>
       </div>
-      <button class="bg-indigo-500 text-gray-100 px-4 rounded-xl text-sm flex items-center gap-2">
-        Get
-        <i class="fa-solid fa-arrow-right"></i>
-      </button>
+      <div v-if="useButtonCTA">
+        <button class="bg-indigo-500 text-gray-100 px-4 py-2 rounded-xl text-sm flex items-center gap-1">
+          Get
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
     </section>
   </main>
 </template>
@@ -53,6 +55,14 @@ const props = defineProps({
   releaseDate: {
     type: String,
     default: '11/7/2022'
+  },
+  useOverLayer: {
+    type: Boolean,
+    default: true
+  },
+  useButtonCTA: {
+    type: Boolean,
+    default: true
   }
 })
 
