@@ -2,7 +2,7 @@
   <main class="mt-16">
     <section-title title="About Bekantan Hamox"></section-title>
     <!-- About -->
-    <section class="mt-8 md:mt-10 flex flex-col md:flex-row md:justify-between">
+    <section class="mt-8 md:mt-10 flex flex-col md:flex-row lg:flex-col lg:items-center lg:gap-6 md:justify-between">
       <!-- Ilustration -->
       <div class="w-full md:w-4/12 mb-4 md:mb-0 relative">
         <!-- Blur effect -->
@@ -10,7 +10,7 @@
         <img src="/nft-asset-3.jpg" alt="Bekantan Hamox" class="border border-gray-500 rounded-full w-full" />
       </div>
       <!-- Contents -->
-      <div class="md:w-7/12 text-gray-200">
+      <div class="md:w-7/12 text-gray-200 lg:text-center">
         <h1 class="text-indigo-400 font-medium text-xl">The Our Future</h1>
         <p class="mb-4">At, mollis vitae, faucibus quis, leo. Ut feugiat. Vivamus urna quam, congue vulputate, convallis non, cursus cursus, risus. Quisque aliquet. Donec.</p>
         <p>Imperdiet id, sapien. Phasellus auctor nunc. Vivamus eget augue quis neque vestibulum placerat. Duis placerat. Maecenas accumsan rutrum lacus. Vestibulum lacinia. Eget, pretium ut, sapien.</p>
