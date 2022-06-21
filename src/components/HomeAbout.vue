@@ -10,10 +10,10 @@
         <img src="/nft-asset-3.jpg" alt="Bekantan Hamox" class="border border-gray-500 rounded-full w-full" />
       </div>
       <!-- Contents -->
-      <div class="md:w-7/12 text-gray-200 lg:text-center">
+      <div class="md:w-7/12 text-gray-200 lg:w-10/12 lg:text-center">
         <h1 class="text-indigo-400 font-medium text-xl">The Our Future</h1>
-        <p class="mb-4">At, mollis vitae, faucibus quis, leo. Ut feugiat. Vivamus urna quam, congue vulputate, convallis non, cursus cursus, risus. Quisque aliquet. Donec.</p>
-        <p>Imperdiet id, sapien. Phasellus auctor nunc. Vivamus eget augue quis neque vestibulum placerat. Duis placerat. Maecenas accumsan rutrum lacus. Vestibulum lacinia. Eget, pretium ut, sapien.</p>
+        <p class="mb-4">At, mollis vitae, faucibus quis, leo. Ut feugiat. Vivamus urna quam, congue vulputate, convallis non, cursus cursus, risus. Quisque aliquet. Donec. Mollis velit. Sed vitae metus. Morbi posuere mi id odio. Donec elit sem, tempor at, pharetra eu, sodales sit amet, elit. Curabitur urna tellus, aliquam vitae, ultrices eget, <strong>vehicula nec, diam. Integer elementum, felis non faucibus</strong>.</p>
+        <p>Imperdiet id, sapien. Phasellus auctor nunc. Vivamus eget augue quis neque vestibulum placerat. Duis placerat. Maecenas accumsan rutrum lacus. Vestibulum lacinia. Eget, pretium ut, sapien. Suspendisse potenti. In hac habitasse <strong>platea dictumst.</strong> Cras quis lacus. Vestibulum rhoncus congue.</p>
         <!-- Join Our Community -->
         <button class="px-4 py-2 text-sm rounded-lg bg-indigo-700 text-gray-100 mt-4"><i class="fa-solid fa-users mr-2"></i> Join Our Community</button>
       </div>
