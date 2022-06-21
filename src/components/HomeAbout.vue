@@ -10,8 +10,8 @@
         <img src="/nft-asset-3.jpg" alt="Bekantan Hamox" class="border border-gray-500 rounded-full w-full" />
       </div>
       <!-- Contents -->
-      <div class="text-gray-200 lg:w-10/12 md:text-center">
-        <h1 class="text-indigo-400 font-medium text-xl mb-3">The Our Future</h1>
+      <div class="text-gray-200 lg:w-10/12">
+        <h1 class="text-indigo-400 font-medium text-xl mb-3 md:text-center">The Our Future</h1>
         <div class="w-full md:flex justify-between gap-3">
           <p class="mb-4 md:w-6/12">At, mollis vitae, faucibus quis, leo. Ut feugiat. Vivamus urna quam, congue vulputate, convallis non, cursus cursus, risus. Quisque aliquet. Donec. Mollis velit. Sed vitae metus. Morbi posuere mi id odio. Donec elit sem, tempor at, pharetra eu, sodales sit amet, elit. Curabitur urna tellus, aliquam vitae, ultrices eget, <strong>vehicula nec, diam. Integer elementum, felis non faucibus</strong>.</p>
           <p class="md:w-6/12">Imperdiet id, sapien. Phasellus auctor nunc. Vivamus eget augue quis neque vestibulum placerat. Duis placerat. Maecenas accumsan rutrum lacus. Vestibulum lacinia. Eget, pretium ut, sapien. Suspendisse potenti. In hac habitasse <strong>platea dictumst.</strong> Cras quis lacus. Vestibulum rhoncus congue.</p>
@@ -24,6 +24,8 @@
     <about-our-verse></about-our-verse>
     <!-- About Our Heroes -->
     <about-our-heroes></about-our-heroes>
+    <!-- About Our Tiers -->
+    <about-our-tiers></about-our-tiers>
   </main>
 </template>
 
@@ -32,5 +34,6 @@
 import SectionTitle from '@component/SectionTitle.vue'
 import AboutOurVerse from '@component/AboutOurVerse.vue'
 import AboutOurHeroes from '@component/AboutOurHeroes.vue'
+import AboutOurTiers from '@component/AboutOurTiers.vue'
 
 </script>
