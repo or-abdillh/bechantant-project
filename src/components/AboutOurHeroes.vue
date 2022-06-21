@@ -1,6 +1,6 @@
 <template>
   <main class="mt-12">
-    <sub-section-title align="end" title="They Are Our Heroes" subtitle="Introducing our main Andaira Village saviors"></sub-section-title>
+    <sub-section-title align="start" title="They Are Our Heroes" subtitle="Introducing our main Andaira Village saviors"></sub-section-title>
     <!-- Contents -->
     <section class="mt-6 flex md:gap-5 gap-2 justify-between flex-wrap md:flex-nowrap">
       <template v-for="card in 4" :key="card">

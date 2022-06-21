@@ -1,6 +1,6 @@
 <template>
   <main class="mt-12">
-    <sub-section-title align="start" title="Wasaka Town, 2055, Indonesia" subtitle="Welcome to our verse, your new journey start here"></sub-section-title> 
+    <sub-section-title align="end" title="Wasaka Town, 2055, Indonesia" subtitle="Welcome to our verse, your new journey start here"></sub-section-title> 
     <!-- Caraousels -->
     <Splide class="mb-6" :options="{ rewind: true, autoplay: true }" aria-label="My Favorite Images">
       <SplideSlide>
