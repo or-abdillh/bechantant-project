@@ -2,7 +2,7 @@
   <main>
     <template v-for="list in 4" :key="list">
       <section 
-        :class="list % 2 === 0 ? 'md:flex-row-reverse md:text-right border-r pr-2 md:pr-8' : 'md:flex-row border-l pl-2 md:pl-8'"
+        :class="list % 2 === 0 ? 'md:flex-row-reverse md:text-right pr-2 md:pr-8' : 'md:flex-row pl-2 md:pl-8'"
         class="flex md:gap-8 items-center flex-col mb-6 rounded-lg">
         <!-- Thumbnail -->
         <span class="w-4/12 md:w-2/12">
