@@ -24,6 +24,8 @@
     <about-our-verse></about-our-verse>
     <!-- About Our Heroes -->
     <about-our-heroes></about-our-heroes>
+    <!-- Featured Creators -->
+    <about-featured-creators></about-featured-creators>
     <!-- About Our Tiers -->
     <about-our-tiers></about-our-tiers>
   </main>
@@ -35,5 +37,6 @@ import SectionTitle from '@component/SectionTitle.vue'
 import AboutOurVerse from '@component/AboutOurVerse.vue'
 import AboutOurHeroes from '@component/AboutOurHeroes.vue'
 import AboutOurTiers from '@component/AboutOurTiers.vue'
+import AboutFeaturedCreators from '@component/AboutFeaturedCreators.vue'
 
 </script>
