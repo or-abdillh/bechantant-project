@@ -3,10 +3,10 @@
     <template v-for="list in 4" :key="list">
       <section 
         :class="list % 2 === 0 ? 'md:flex-row-reverse md:text-right pr-2 md:pr-8' : 'md:flex-row pl-2 md:pl-8'"
-        class="flex md:gap-8 items-center flex-col mb-6 rounded-lg">
+        class="flex md:gap-8 items-center justify-evenly flex-col mb-8 md:mb-12 rounded-lg">
         <!-- Thumbnail -->
-        <span class="w-4/12 md:w-2/12">
-          <img src="/nft-asset-2.jpg" alt="Tier Elite" class="border border-gray-300 rounded-full mb-2">
+        <span class="w-4/12 md:w-3/12 md:mb-0">
+          <img src="/nft-asset-2.jpg" alt="Tier Elite" class="border border-gray-300 rounded-full md:w-[85%]">
         </span>
         <!-- Contents -->
         <div>
