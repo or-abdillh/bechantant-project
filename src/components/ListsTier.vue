@@ -10,13 +10,13 @@
         </span>
         <!-- Contents -->
         <div>
-          <h1 class="font-antic-slab text-indigo-500 font-bold text-lg">Tier Elite</h1>
+          <h1 class="font-antic-slab text-gray-100 font-bold text-lg">Tier Elite</h1>
           <small class="text-gray-400">Have 100 Bekantan Hamox NFT's</small>
           <ul class="text-gray-300">
-            <li>Id, consequat id, lobortis nec, <i class="fa-solid fa-check text-indigo-500 mx-2"></i></li>
-            <li>Id, consequat id, lobortis nec, <i class="fa-solid fa-check text-indigo-500 mx-2"></i></li>
-            <li>Id, consequat id, lobortis nec, <i class="fa-solid fa-check text-indigo-500 mx-2"></i></li>
-            <li>Id, consequat id, lobortis nec, <i class="fa-solid fa-check text-indigo-500 mx-2"></i></li>
+            <li>Id, consequat id, lobortis nec, <i class="fa-solid fa-check text-gray-300 mx-2"></i></li>
+            <li>Id, consequat id, lobortis nec, <i class="fa-solid fa-check text-gray-300 mx-2"></i></li>
+            <li>Id, consequat id, lobortis nec, <i class="fa-solid fa-check text-gray-300 mx-2"></i></li>
+            <li>Id, consequat id, lobortis nec, <i class="fa-solid fa-check text-gray-300 mx-2"></i></li>
           </ul>
         </div>
       </section>
