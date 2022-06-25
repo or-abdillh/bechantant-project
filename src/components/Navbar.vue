@@ -10,6 +10,7 @@ a {
     <section class="navbar-brand">
       <!-- Brand -->
       <div class="flex items-center gap-3">
+        <img src="/icons/icon-152x152.png" class="w-[10%]" alt="Hamox NFT">
         <h1 class="text-slate-100 text-xl font-semibold lg:text-3xl">Bekantan Hamox</h1>
       </div>
       <!-- Toggle -->
