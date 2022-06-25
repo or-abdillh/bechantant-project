@@ -7,7 +7,7 @@
       <div class="w-full md:w-4/12 mb-4 md:mb-0 relative">
         <!-- Blur effect -->
         <span class="block p-16 rounded-full absolute top-5 -left-3 bg-indigo-600 blur-xl z-[-9]"></span>
-        <img src="/nft-asset-3.jpg" alt="Bekantan Hamox" class="border border-gray-500 rounded-full w-full" />
+        <img src="/icons/icon-512x512.png" alt="Bekantan Hamox" class="border-b-2 border-gray-400 rounded-full w-full shadow-lg" />
       </div>
       <!-- Contents -->
       <div class="text-gray-200 lg:w-10/12">

@@ -3,26 +3,26 @@
     <sub-section-title align="end" title="Our Featured Creators" subtitle="Meet the best creatives and imaginers this week"></sub-section-title>
     <!-- Contents -->
     <section class="flex gap-3 flex-col md:flex-row justify-between md:flex-wrap">
-      <template v-for="item in 6" :key="item">
+      <template v-for="item in creators" :key="item">
         <!-- List Wrapper -->
         <section class="w-full md:w-[48%] flex gap-3 px-5 py-3 rounded-lg bg-slate-800 bg-opacity-25 backdrop-blur-sm justify-between items-center border border-gray-700">
           <!-- Profile -->
           <div class="w-3/12">
-            <img src="/nft-asset-4.jpg" alt="Profile" class="w-full rounded-lg">
+            <img :src="item.thumb" alt="Profile" class="w-full rounded-lg">
           </div>
           <!-- Stats -->
           <div class="w-6/12 text-gray-200 flex flex-col gap-2">
-            <h1 class="font-bold">Jonathan Doe</h1>
-            <div class="text-sm">
+            <h1 class="font-bold">{{ item.name }}</h1>
+            <div class="text-sm flex gap-2 flex-wrap">
               <!-- Tiers -->
               <span>
                 <i class="fa-solid fa-crown text-yellow-300"></i>
-                Elite
+                {{ item.tier }}
               </span>
               <!-- Currency -->
               <span>
                 <i class="fa-brands fa-ethereum text-slate-500"></i>
-                0.045
+                {{ item.eth }}
               </span>
             </div>
           </div>
@@ -39,5 +39,44 @@
 <script setup>
 
 import SubSectionTitle from '@component/SubSectionTitle.vue'
+
+const creators = [
+  {
+    name: 'OR Abdillh',
+    thumb: '/tiers/level-3.png',
+    tier: 'Grand Master',
+    eth: '0.145'
+  },
+  {
+    name: 'Rifqi Rahman',
+    thumb: '/tiers/level-4.png',
+    tier: 'Grand Master',
+    eth: '0.111'
+  }, 
+  {
+    name: 'Mina Fitria',
+    thumb: '/tiers/level-3.png',
+    tier: 'Master',
+    eth: '0.101'
+  },
+  {
+    name: 'Julia Syahisti',
+    thumb: '/tiers/level-2.png',
+    tier: 'Elite',
+    eth: '0.0045'
+  },
+  {
+    name: 'Rizqa Aulia',
+    thumb: '/tiers/level-1.png',
+    tier: 'Elite',
+    eth: '0.0025'
+  }, 
+  {
+    name: 'Surya Insomnia',
+    thumb: '/tiers/level-1.png',
+    tier: 'Elite',
+    eth: '0.0010'
+  }
+]
 
 </script>

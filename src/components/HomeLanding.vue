@@ -43,7 +43,7 @@
         <div class="p-16 bg-pink-500 blur-circle left-3 md:left-0 md:-right-full"></div>
       </section>
       <!-- Featured NFT -->
-      <card-item class="w-9/12 mx-auto md:w-full"></card-item>
+      <card-item class="w-9/12 mx-auto md:w-full" img="/featured-nft.png" title="The Great Bechant" artist="Rifqi Rahman"></card-item>
     </section>
   </main>
   <!-- Sponsors -->
