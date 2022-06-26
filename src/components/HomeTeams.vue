@@ -1,0 +1,76 @@
+<template>
+  <main>
+    <section-title title="Our Teams"></section-title>
+    <!-- Contents -->
+    <section class="flex flex-wrap gap-5 justify-evenly mt-12">
+      <template v-for="team in teams" :key="team">
+        <div class="flex flex-col items-center gap-3 w-[40%] md:w-[25%] mb-5">
+          <img :src="team.thumb" :alt="team.name" class="rounded-full border border-gray-400">
+          <div class="text-center">
+            <h1 class="text-gray-200 text-lg">{{ team.name }}</h1>
+            <small class="text-gray-500">{{ team.job }}</small>
+            <span class="flex gap-2 text-indigo-500 justify-center mt-2">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </span>
+          </div>
+        </div>
+      </template>
+    </section>
+    <!-- Join Our Community>
+    <section class="w-full rounded-lg p-5 bg-slate-800 bg-opacity-75 backdrop-blur-sm grid place-items-center">
+      <div class="w-6/12 text-center">
+        <h1 class="text-3xl text-gray-200 mb-3">Join Our Community</h1>
+        <button class="bg-indigo-500 text-gray-200 rounded-lg px-4 py-1">
+          <i class="fa-solid fa-arrow-right mr-2"></i>
+          Join Now
+        </button>
+      </div>
+    </section -->
+  </main>
+</template>
+
+<script setup>
+
+import SectionTitle from '@component/SectionTitle.vue'
+
+const teams = [
+  {
+    name: 'OR Abdillh',
+    job: 'Chief Technology Officer',
+    thumb: '/tiers/level-3.png'
+  },
+  {
+    name:'Rifqi Rahman',
+    job: 'Chief Product Officer',
+    thumb: '/tiers/level-4.png'
+  },
+  {
+    name: 'Mina Fitria',
+    job: 'Chief Finance Officer',
+    thumb: '/tiers/level-3.png'
+  },
+  {
+    name: 'Julia Syahisti',
+    job: 'Chief Branding Officer',
+    thumb: '/tiers/level-2.png'
+  }, 
+  {
+    name: 'Jonh Doe',
+    job: 'Officer',
+    thumb: '/tiers/level-1.png'
+  },
+  {
+    name: 'Jonh Doe',
+    job: 'Officer',
+    thumb: '/tiers/level-1.png'
+  },
+  {
+    name: 'Jonh Doe',
+    job: 'Officer',
+    thumb: '/tiers/level-1.png'
+  }
+]
+
+</script>
