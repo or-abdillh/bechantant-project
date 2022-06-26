@@ -3,7 +3,6 @@
     <section class="w-8/12">
       <h1 class="font-antic-slab text-xl font-semibold text-indigo-400">
         {{ props.title }}
-        <i class="fa-solid fa-chevron-left"></i>
       </h1>
       <small class="text-sm text-gray-200">{{ props.subtitle }}</small>
     </section>
