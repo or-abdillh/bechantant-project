@@ -20,16 +20,6 @@
         </div>
       </template>
     </section>
-    <!-- Join Our Community>
-    <section class="w-full rounded-lg p-5 bg-slate-800 bg-opacity-75 backdrop-blur-sm grid place-items-center">
-      <div class="w-6/12 text-center">
-        <h1 class="text-3xl text-gray-200 mb-3">Join Our Community</h1>
-        <button class="bg-indigo-500 text-gray-200 rounded-lg px-4 py-1">
-          <i class="fa-solid fa-arrow-right mr-2"></i>
-          Join Now
-        </button>
-      </div>
-    </section -->
   </main>
 </template>
 

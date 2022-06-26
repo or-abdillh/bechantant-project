@@ -7,6 +7,7 @@
     <home-about></home-about>
     <home-roadmap></home-roadmap>
     <home-teams></home-teams>
+    <join-our-community></join-our-community>
   </main>
   <!-- back to top -->
   <back-to-top-button></back-to-top-button>
@@ -18,6 +19,7 @@ import HomeLanding from '@component/HomeLanding.vue'
 import HomeAbout from '@component/HomeAbout.vue'
 import HomeRoadmap from '@component/HomeRoadmap.vue'
 import HomeTeams from '@component/HomeTeams.vue'
+import JoinOurCommunity from '@component/JoinOurCommunity.vue'
 import Navbar from '@component/Navbar.vue'
 import BackToTopButton from '@component/BackToTopButton.vue'
 
