@@ -11,6 +11,8 @@
   </main>
   <!-- back to top -->
   <back-to-top-button></back-to-top-button>
+  <!-- Footer -->
+  <app-footer></app-footer>
 </template>
 
 <script setup>
@@ -22,5 +24,6 @@ import HomeTeams from '@component/HomeTeams.vue'
 import JoinOurCommunity from '@component/JoinOurCommunity.vue'
 import Navbar from '@component/Navbar.vue'
 import BackToTopButton from '@component/BackToTopButton.vue'
+import AppFooter from '@component/AppFooter.vue'
 
 </script>
