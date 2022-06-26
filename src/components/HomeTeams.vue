@@ -39,37 +39,37 @@ const teams = [
   {
     name: 'OR Abdillh',
     job: 'Chief Technology Officer',
-    thumb: '/tiers/level-3.png'
+    thumb: '/profiles/male.jpg'
   },
   {
     name:'Rifqi Rahman',
     job: 'Chief Product Officer',
-    thumb: '/tiers/level-4.png'
+    thumb: '/profiles/male.jpg'
   },
   {
     name: 'Mina Fitria',
     job: 'Chief Finance Officer',
-    thumb: '/tiers/level-3.png'
+    thumb: '/profiles/female.jpg'
   },
   {
     name: 'Julia Syahisti',
     job: 'Chief Branding Officer',
-    thumb: '/tiers/level-2.png'
+    thumb: '/profiles/female.jpg'
   }, 
   {
     name: 'Jonh Doe',
     job: 'Officer',
-    thumb: '/tiers/level-1.png'
+    thumb: '/profiles/male.jpg'
   },
   {
     name: 'Jonh Doe',
     job: 'Officer',
-    thumb: '/tiers/level-1.png'
+    thumb: '/profiles/male.jpg'
   },
   {
     name: 'Jonh Doe',
     job: 'Officer',
-    thumb: '/tiers/level-1.png'
+    thumb: '/profiles/male.jpg'
   }
 ]
 

@@ -43,37 +43,37 @@ import SubSectionTitle from '@component/SubSectionTitle.vue'
 const creators = [
   {
     name: 'OR Abdillh',
-    thumb: '/tiers/level-3.png',
+    thumb: '/profiles/male.jpg',
     tier: 'Grand Master',
     eth: '0.145'
   },
   {
     name: 'Rifqi Rahman',
-    thumb: '/tiers/level-4.png',
+    thumb: '/profiles/male.jpg',
     tier: 'Grand Master',
     eth: '0.111'
   }, 
   {
     name: 'Mina Fitria',
-    thumb: '/tiers/level-3.png',
+    thumb: '/profiles/female.jpg',
     tier: 'Master',
     eth: '0.101'
   },
   {
     name: 'Julia Syahisti',
-    thumb: '/tiers/level-2.png',
+    thumb: '/profiles/female.jpg',
     tier: 'Elite',
     eth: '0.0045'
   },
   {
     name: 'Rizqa Aulia',
-    thumb: '/tiers/level-1.png',
+    thumb: '/profiles/female.jpg',
     tier: 'Elite',
     eth: '0.0025'
   }, 
   {
     name: 'Surya Insomnia',
-    thumb: '/tiers/level-1.png',
+    thumb: '/profiles/male.jpg',
     tier: 'Elite',
     eth: '0.0010'
   }
