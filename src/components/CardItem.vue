@@ -1,7 +1,7 @@
 <template>
-  <main class="bg-gray-200 border border-gray-300 flex flex-col rounded-lg overflow-hidden">
+  <main class="bg-gray-200 border border-gray-300 flex flex-col rounded-lg overflow-hidden" data-aos="zoom-in-up">
     <!-- Image -->
-    <section class="relative">
+    <section class="relative" data-aos="zoom-in-up">
       <img :src="props.img" :alt="props.title" loading="lazy">
       <!-- Overlay Banner -->
       <div v-if="useOverLayer" class="flex justify-between px-3 py-2 bg-gray-600 bg-opacity-50 backdrop-blur-sm absolute bottom-3 left-3 right-3 text-gray-100 text-xs">

@@ -1,6 +1,6 @@
 <template>
   <main class="mt-12 p-6 md:p-8 rounded-lg bg-indigo-700 grid place-items-center text-center">
-    <section class="md:w-8/12 mx-auto flex flex-col gap-4">
+    <section class="md:w-8/12 mx-auto flex flex-col gap-4" data-aos="zoom-in-up">
       <h1 class="font-antic-slab text-gray-300 text-xl font-bold">
         Are You Ready To Share And Build Something Great With Us ?
       </h1>

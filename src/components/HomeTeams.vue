@@ -4,7 +4,7 @@
     <!-- Contents -->
     <section class="flex flex-wrap gap-5 justify-evenly mt-12">
       <template v-for="team in teams" :key="team">
-        <div class="flex flex-col items-center gap-3 w-[40%] md:w-[25%] mb-5">
+        <div class="flex flex-col items-center gap-3 w-[40%] md:w-[25%] mb-5" data-aos="zoom-in-up">
           <div>
             <img :src="team.thumb" :alt="team.name" class="rounded-full border border-gray-400" loading="lazy">
           </div>

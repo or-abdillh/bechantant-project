@@ -8,7 +8,7 @@
       </template>
     </section>
     <!-- Quotes -->
-    <section class="mt-6 md:w-8/12 mx-auto">
+    <section class="mt-6 md:w-8/12 mx-auto" data-aos="zoom-in-up">
       <h1 class="font-antic-slab text-2xl font-medium text-gray-200 text-center">
         <i class="fa-solid fa-quote-left"></i>
         They are only fictional characters, but their passion and philosophy are real

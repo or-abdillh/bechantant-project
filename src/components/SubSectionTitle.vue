@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full flex mb-6" :class="align === 'start' ? 'flex-row' : 'flex-row-reverse text-right'">
+  <main data-aos="zoom-in-up" class="w-full flex mb-6" :class="align === 'start' ? 'flex-row' : 'flex-row-reverse text-right'">
     <section class="w-8/12">
       <h1 class="font-antic-slab text-xl font-semibold text-indigo-400">
         {{ props.title }}

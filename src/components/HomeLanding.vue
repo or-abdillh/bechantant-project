@@ -14,7 +14,7 @@
 <template>
   <main id="home" class="flex flex-col md:flex-row justify-between gap-5 md:gap-0 py-4">
     <!-- Tagline -->
-    <section class="w-full md:w-6/12">
+    <section class="w-full md:w-6/12 animate__animated animate__jello">
       <h1 class="text-gray-50 text-3xl font-antic-slab font-medium mb-2">A Greatest NFT Become From Indonesia, This Is Bekantan NFT</h1>
       <p class="text-gray-300 text-lg">Nunc eu mi non augue iaculis facilisis. Morbi interdum. Donec nisi arcu, rhoncus ac, vestibulum ut, pellentesque nec, risus.</p>
       <!-- CTA -->
@@ -36,7 +36,7 @@
       </section>
     </section>
     <!-- Ilustration -->
-    <section class="w-full md:w-4/12 mt-8 md:mt-0">
+    <section class="w-full md:w-4/12 mt-8 md:mt-0 animate__animated animate__jello">
       <!-- blur effects -->
       <section class="relative md:w-6/12">
         <div class="p-20 bg-indigo-500 blur-circle -top-full left-5"></div>
@@ -57,6 +57,7 @@
 <script setup>
 
 import CardItem from '@component/CardItem.vue'
+import 'animate.css'
 
 const stats = [
   {

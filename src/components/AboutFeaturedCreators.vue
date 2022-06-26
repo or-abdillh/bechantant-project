@@ -5,7 +5,7 @@
     <section class="flex gap-3 flex-col md:flex-row justify-between md:flex-wrap">
       <template v-for="item in creators" :key="item">
         <!-- List Wrapper -->
-        <section class="w-full md:w-[48%] flex gap-3 px-5 py-3 rounded-lg bg-slate-800 bg-opacity-25 backdrop-blur-sm justify-between items-center border border-gray-700">
+        <section class="w-full md:w-[48%] flex gap-3 px-5 py-3 rounded-lg bg-slate-800 bg-opacity-25 backdrop-blur-sm justify-between items-center border border-gray-700" data-aos="zoom-in-up">
           <!-- Profile -->
           <div class="w-3/12">
             <img :src="item.thumb" alt="Profile" class="w-full rounded-lg" loading="lazy">

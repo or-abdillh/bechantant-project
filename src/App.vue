@@ -26,4 +26,12 @@ import Navbar from '@component/Navbar.vue'
 import BackToTopButton from '@component/BackToTopButton.vue'
 import AppFooter from '@component/AppFooter.vue'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css' // You can also use <link> for styles
+// ..
+AOS.init({
+  offset: 120,
+  delay: 100
+})
+
 </script>
