@@ -6,7 +6,7 @@
         class="flex md:gap-8 items-center justify-evenly flex-col mb-8 md:mb-12 rounded-lg">
         <!-- Thumbnail -->
         <span class="w-4/12 md:w-3/12 mb-3 md:mb-0">
-          <img :src="list.img" alt="Tier Elite" class="border border-gray-400 shadow-lg rounded-full md:w-[95%]">
+          <img :src="list.img" alt="Tier Elite" class="border border-gray-400 shadow-lg rounded-full md:w-[95%]" loading="lazy">
         </span>
         <!-- Contents -->
         <div class="text-center">

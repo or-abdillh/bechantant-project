@@ -6,7 +6,7 @@
       <template v-for="team in teams" :key="team">
         <div class="flex flex-col items-center gap-3 w-[40%] md:w-[25%] mb-5">
           <div>
-            <img :src="team.thumb" :alt="team.name" class="rounded-full border border-gray-400">
+            <img :src="team.thumb" :alt="team.name" class="rounded-full border border-gray-400" loading="lazy">
           </div>
           <div class="text-center">
             <h1 class="text-gray-200 text-lg">{{ team.name }}</h1>

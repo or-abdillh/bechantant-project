@@ -8,7 +8,7 @@
         <section class="w-full md:w-[48%] flex gap-3 px-5 py-3 rounded-lg bg-slate-800 bg-opacity-25 backdrop-blur-sm justify-between items-center border border-gray-700">
           <!-- Profile -->
           <div class="w-3/12">
-            <img :src="item.thumb" alt="Profile" class="w-full rounded-lg">
+            <img :src="item.thumb" alt="Profile" class="w-full rounded-lg" loading="lazy">
           </div>
           <!-- Stats -->
           <div class="w-6/12 text-gray-200 flex flex-col gap-2">
