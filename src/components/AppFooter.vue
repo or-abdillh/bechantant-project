@@ -14,7 +14,7 @@
 						bekantan-hamox
 					</li>
 					<li>
-						<i class="fa-solid fa-envelope text-red-400 mr-2"></i>
+						<i class="fa-regular fa-envelope text-red-400 mr-2"></i>
 						bekantan.nft@hamox.com
 					</li>
 					<li>
