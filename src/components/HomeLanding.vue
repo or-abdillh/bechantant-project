@@ -16,7 +16,9 @@
     <!-- Tagline -->
     <section class="w-full md:w-6/12 animate__animated animate__jello">
       <h1 class="text-gray-50 text-3xl font-antic-slab font-medium mb-2">A Greatest NFT Become From Indonesia, This Is Bekantan NFT</h1>
-      <p class="text-gray-300 text-lg">Nunc eu mi non augue iaculis facilisis. Morbi interdum. Donec nisi arcu, rhoncus ac, vestibulum ut, pellentesque nec, risus.</p>
+      <p class="text-gray-300 text-lg">
+        Only here you can make a real contribution to the survival and habitat of proboscis monkeys through an educational and innovative digital platform
+      </p>
       <!-- CTA -->
       <section class="flex gap-6 my-8">
         <button class="btn bg-indigo-600 text-gray-100">
