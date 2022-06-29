@@ -12,8 +12,8 @@
     </Splide>
     <!-- Content -->
     <section class="flex flex-wrap justify-between gap-5">
-      <template v-for="item in 4" :key="item">
-        <p data-aos="zoom-in-up" class="inline-block md:w-[48%] text-gray-200">Quam. Nunc ante. Nulla mi nulla, <strong>vehicula nec, ultrices a</strong>, tincidunt vel, enim. Suspendisse potenti. Aenean sed velit. Nunc. Tristique senectus et netus et malesuada fames ac turpis egestas. <strong>Praesent lacus diam, auctor quis</strong>, venenatis in, hendrerit at.</p>
+      <template v-for="(item, x) in WasakaTown" :key="x">
+        <p data-aos="zoom-in-up" class="inline-block md:w-[48%] text-gray-200">{{ item }}</p>
       </template>
     </section>
   </main>
@@ -23,6 +23,7 @@
 
 import { Splide, SplideSlide } from '@splidejs/vue-splide'
 import SubSectionTitle from '@component/SubSectionTitle.vue'
+import WasakaTown from '@content/WasakaTown.js'
 import '@splidejs/vue-splide/css'
 
 </script>
