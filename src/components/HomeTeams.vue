@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main id="teams">
     <section-title title="Our Teams"></section-title>
     <!-- Contents -->
     <section class="flex flex-wrap gap-5 justify-evenly mt-12">

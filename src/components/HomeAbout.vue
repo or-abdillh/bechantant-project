@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-16">
+  <main id="about" class="mt-16">
     <section-title title="About Bekantan Hamox"></section-title>
     <!-- About -->
     <section class="mt-8 md:mt-10 flex flex-col md:items-center md:gap-4 lg:gap-6 md:justify-between">

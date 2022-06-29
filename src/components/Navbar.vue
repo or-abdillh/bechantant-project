@@ -11,7 +11,7 @@ a {
       <!-- Brand -->
       <div class="flex items-center gap-3">
         <img src="/icons/icon-152x152.png" class="w-[10%]" alt="Hamox NFT">
-        <h1 class="text-slate-100 text-xl font-semibold lg:text-3xl">Bekantan Hamox</h1>
+        <h1 class="text-indigo-300 text-xl font-semibold lg:text-3xl">Bekantan Hamox</h1>
       </div>
       <!-- Toggle -->
       <button @click="showMenu = true" class="active:scale-90 duration-300 md:hidden" type="button">
@@ -31,7 +31,7 @@ a {
             class="text-slate-200 hover:scale-[.9] active:scale-[.75] font-medium pointer duration-300">
             <a
               class="hover:scale-[.9] active:scale-[.75] duration-300"
-              @click="changeMenu(menu)"
+              @click="navigate(menu.to)"
             >{{ menu.name }}</a>
           </li>
         </template>
@@ -95,11 +95,11 @@ const changeMenu = (menu) => {
 const menus = [
   {
     name: "Home",
-    to: "#home",
+    to: "#app",
   },
   {
     name: "About",
-    to: "#portofolio",
+    to: "#about",
   },
   {
     name: "Roadmap",
@@ -109,7 +109,11 @@ const menus = [
     name: "Teams",
     to: "#teams"
   }
-];
+]
+
+const navigate = target => {
+  document.querySelector(target).scrollIntoView({ behavior: 'smooth' })
+}
 
 const socials = [
   {
