@@ -1,10 +1,10 @@
 <template>
   <main id="teams">
-    <section-title title="Our Teams"></section-title>
+    <section-title title="Our Teams" subtitle="Introduce the core team behind the scenes of Bechantan Hamox"></section-title>
     <!-- Contents -->
     <section class="flex flex-wrap gap-5 justify-evenly mt-12">
       <template v-for="team in teams" :key="team">
-        <div class="flex flex-col items-center gap-3 w-[40%] md:w-[25%] mb-5" data-aos="zoom-in-up">
+        <div class="flex flex-col items-center gap-4 w-[35%] md:w-[20%] mb-5" data-aos="zoom-in-up">
           <div>
             <img :src="team.thumb" :alt="team.name" class="rounded-full border border-gray-400" loading="lazy">
           </div>
