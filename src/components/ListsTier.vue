@@ -1,6 +1,6 @@
 <template>
   <main>
-    <template v-for="list in tiers" :key="list">
+    <template v-for="list in Tiers" :key="list">
       <section 
         :class="list.id % 2 === 0 ? 'md:flex-row-reverse md:text-right pr-2 md:pr-8' : 'md:flex-row pl-2 md:pl-8'"
         class="flex md:gap-8 items-center justify-evenly flex-col mb-8 md:mb-12 rounded-lg">
@@ -9,15 +9,15 @@
           <img :src="list.img" alt="Tier Elite" class="border border-gray-400 shadow-lg rounded-full md:w-[95%]" loading="lazy">
         </span>
         <!-- Contents -->
-        <div class="text-center">
+        <div class="/text-center">
           <h1 class="font-antic-slab text-gray-100 font-bold text-lg" data-aos="zoom-in-up">Tier {{ list.name }}</h1>
           <small class="text-gray-400" data-aos="zoom-in-up">Have {{ list.amount }} Bekantan Hamox NFT's</small>
           <ul class="text-gray-300">
-            <template v-for="check in 4" :key="check">
+            <template v-for="check in list.checks" :key="check">
               <li 
                 data-aos="zoom-in-up"
                 :class="list.id % 2 === 0 ? 'md:flex-row-reverse' : ''"
-                class="flex gap-1 items-center"><i class="fa-solid fa-check text-gray-300 mx-2"></i> Idle, consequat id, lobortis nec</li>
+                class="flex gap-1 items-center"><i class="fa-solid fa-check text-gray-300 mx-2"></i>{{ check }}</li>
             </template>
           </ul>
         </div>
@@ -28,36 +28,6 @@
 
 <script setup>
 
-const tiers = [
-  {
-    id: 1,
-    name: 'Elite',
-    img: '/tiers/level-1.png',
-    amount: 100,
-    checks: []
-  },
-  {
-    id: 2,
-    name: 'Master',
-    img: '/tiers/level-2.png',
-    amount: 200,
-    checks: []
-  },
-  {
-    id: 3,
-    name: 'Grand Master',
-    img: '/tiers/level-3.png',
-    amount: 350,
-    checks: []
-  },
-  {
-    id: 4,
-    name: 'Legends',
-    img: '/tiers/level-4.png',
-    amount: 500,
-    checks: []
-  },
-
-]
+import Tiers from '@content/Tiers.js'
 
 </script>
