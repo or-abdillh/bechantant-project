@@ -13,7 +13,7 @@
     <!-- Content -->
     <section class="flex flex-wrap justify-between gap-5">
       <template v-for="(item, x) in WasakaTown" :key="x">
-        <p data-aos="zoom-in-up" class="inline-block md:w-[48%] text-gray-200">{{ item }}</p>
+        <p data-aos="zoom-in-up" v-html="item" class="inline-block md:w-[48%] text-gray-200"></p>
       </template>
     </section>
   </main>
