@@ -1,6 +1,8 @@
 ## Bekantan Hamox |  NFT  | Metaverse
 Karya Humble Pie Team - Politeknik Hasnur
 
+<img width="100%" src="https://drive.google.com/uc?id=1Tgb2wWj9AhR5WtalKTPH4aCDU1RbmHpd&export=download" />
+
 ### About
 Ini adalah sebuah project berupa landing page atau website official yang dibangun untuk memperkenalkan project Bekantan Hamox kepada calon investor yang ingin menginvestasikan asset mereka ke dalam bentuk NFT yang kami sebut sebagai Hamox NFT serta memperkenalkan sebuah metaverse official yaitu Wasaka Town yang memperbolehkan para pemegang Hamox NFT bermain dan saling berinteraksi dengan player lain dan peluang untuk mengumpulkan asset atau item in game yang telah disediakan developer serta bersaing meningkatkan tier mereka sesuai kemampuan masing - masing pemilik Hamox NFT.
 
@@ -31,5 +33,11 @@ Adalah sebuah project yang terbentuk sebagai wujud kepedulian serta keprihatinan
 
 #### Live Preview
 [Bekantan Hamox | NFT | Metaverse](http://bekantan-hamox.vercel.app)
+
+## Getting Started
+- ```$ git clone https://github.com/or-abdillh/bechantant-project```
+- ```$ cd bechantant-project && npm install ```
+- ```$ npm run dev```
+
 
 Last Edited On 01/07/2022 by [OR Abdillh](htpp://or-abdillh.vercel.app)

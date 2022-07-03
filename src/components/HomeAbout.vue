@@ -5,9 +5,7 @@
     <section class="mt-8 md:mt-10 flex flex-col md:items-center md:gap-4 lg:gap-6 md:justify-between">
       <!-- Ilustration -->
       <div class="w-full md:w-4/12 mb-4 md:mb-0 relative" data-aos="zoom-in-up">
-        <!-- Blur effect -->
-        <span class="block p-16 rounded-full absolute top-5 -left-3 bg-indigo-600 blur-xl z-[-9]"></span>
-        <img src="/icons/icon-512x512.png" alt="Bekantan Hamox" class="border-b-2 border-gray-400 rounded-full w-full shadow-lg" />
+        <img src="https://drive.google.com/uc?id=15lhRWdqNb6TcWgu0K9UCIdl8dVedE74L&export=download" alt="Bekantan Hamox" class="border-b-2 border-gray-400 rounded-full w-10/12 mx-auto md:w-full shadow-lg" />
       </div>
       <!-- Contents -->
       <div class="text-gray-200 lg:w-10/12" data-aos="zoom-in-up">

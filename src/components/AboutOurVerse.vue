@@ -1,14 +1,13 @@
 <template>
   <main class="mt-12">
-    <sub-section-title align="end" title="Wasaka Town, 2055, Indonesia" subtitle="Welcome to our verse, your new journey start here"></sub-section-title> 
+    <sub-section-title align="end" title="Wasaka Town, 2045, Indonesia" subtitle="Welcome to our verse, your new journey start here"></sub-section-title> 
     <!-- Caraousels -->
     <Splide class="mb-6" :options="{ rewind: true, autoplay: true }" aria-label="My Favorite Images" data-aos="zoom-in-up">
-      <SplideSlide>
-        <img class="rounded-lg" src="/verse/town.png" alt="Sample 1">
-      </SplideSlide>
-      <SplideSlide>
-        <img class="rounded-lg" src="/verse/town.png" alt="Sample 2">
-      </SplideSlide>
+      <template v-for="slide in 7" :key="slide">
+        <SplideSlide class="w-full">
+        <img class="rounded-lg w-full" :src="getImage(slide)" alt="Wasaka Town">
+        </SplideSlide>
+      </template>
     </Splide>
     <!-- Content -->
     <section class="flex flex-wrap justify-between gap-5">
@@ -25,5 +24,7 @@ import { Splide, SplideSlide } from '@splidejs/vue-splide'
 import SubSectionTitle from '@component/SubSectionTitle.vue'
 import WasakaTown from '@content/WasakaTown.js'
 import '@splidejs/vue-splide/css'
+
+const getImage = num => `/verse/wasaka-town-${num}.png`
 
 </script>
