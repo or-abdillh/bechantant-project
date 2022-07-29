@@ -14,7 +14,10 @@ Adalah sebuah project yang terbentuk sebagai wujud kepedulian serta keprihatinan
  
 #### Wasaka Town
  Adalah sebuah metaverse oficial dari Bekantan Hamox yang mengambil konsep dan latar keadaan kota Banjarmasin pada tahun 2045 yang penuh dengan kemajuan teknologi di sudut - sudut kotanya. Metaverse ini memiliki alur cerita yang merupakan wujud kritik kami terhadap beberapa kebijakan pemerintah daerah yang tidak memperdulikan keberadaan hewan Bekantan sebagai hewan yang dilindungi. Sosok Bechant dan kawan - kawan pada cerita ini adalah wujud bentuk perlawanan dan rasa keperdulian kami terhadap isu - isu perusakan lingkungan dan alaam habitat asli dari hewan Bekantan di Kalimantan Selatan. 
- 
+
+### Interface
+<img width="100%" src="https://drive.google.com/uc?id=1ovmeGhCGZ4DYwd3WeFJhAlODCg0Ji5XD&export=download" />
+
 ### Technology And Tools
 - Vue JS 3
 - Tailwind CSS
